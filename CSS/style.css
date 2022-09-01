@@ -23,7 +23,7 @@ html{
     width: 70%;
     min-width: 1200px;
     min-height: 200px;
-    background-color: brown; 
+    /* background-color: brown;  */
 }
 
 /* HEADER */
@@ -40,7 +40,7 @@ header h1{
 }
 
 /* MAIN */
-p{
+main+p{
     text-align: center;
     margin-bottom: 30px;
 }
@@ -49,16 +49,34 @@ p{
 .team-card{
     width: calc(100% / 3 - 40px);
     height: 130px;
-    background-color: blueviolet;
-    border: 1px solid black;
+    background-color: #0f0e17;
     float: left;
     margin: 20px;
+    
 }
 
 img{
     height: 130px;
 }
 
+.card{
+    box-shadow: 0 0 20px rgba(0, 0, 0 , 0.2);
+    width: calc(100% / 3 - 40px);
+    height: 130px;
+    display: flex;
+    margin-top: 50px;
+    color: white;
+    background-color: #0f0e17; 
+}
+
+.profile-main{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.profile-email{
+    color: #6fc8eb;
+}
 
 
 
@@ -73,4 +91,5 @@ img{
 
 
 
-/* 6fc8eb azzurro 0f0e17 scuro */
+
+
