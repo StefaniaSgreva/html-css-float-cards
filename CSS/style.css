@@ -1,0 +1,31 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{ 
+    content: "";
+    display: table; 
+    clear: both;
+}
+
+/* GENERAL RULES */
+
+html{
+    font-family: 'Fredoka', Arial, sans-serif;
+    background-color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 1200px;
+    /* min-height: 200px;
+    background-color: brown; */
+}
+
+/* HEADER */
+
+/* MAIN */
