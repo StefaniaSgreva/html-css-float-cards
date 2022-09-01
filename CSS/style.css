@@ -40,14 +40,15 @@ header h1{
 }
 
 /* MAIN */
-main+p{
+
+.description{
     text-align: center;
     margin-bottom: 30px;
 }
 
 
 .team-card{
-    margin: 20px ;
+    margin: 20px;
     width: calc(100% / 3 - 40px);
     height: 130px;
     background-color: #0f0e17;
@@ -66,17 +67,19 @@ img{
 .profile-info{
     float: right;
     color: white;
-    margin-right: 70px;
-    margin-top: 20px;
+    /* margin-right: 30px;
+    margin-top: 20px; */
 }
 
 .profile-email{
     color: #6fc8eb;
 }
 
-.profile-position, .profile-email {
+/* .profile-position, .profile-email {
     margin-top: 10px;
-}
+} */
+
+
 
 
 
