@@ -20,7 +20,7 @@ html{
 
 .container{
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     min-width: 1200px;
     /* min-height: 200px;
     background-color: brown; */
@@ -28,4 +28,16 @@ html{
 
 /* HEADER */
 
+header h1{
+    color: #e53170;
+    padding: 30px;
+    text-align: center;
+    /* text-shadow: 2px 2px 2px #000000;   */
+}
+
 /* MAIN */
+p{
+    text-align: center;
+}
+
+/* 6fc8eb azzurro 0f0e17 scuro */
