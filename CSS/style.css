@@ -47,19 +47,28 @@ main+p{
 
 
 .team-card{
+    margin: 20px;
     width: calc(100% / 3 - 40px);
     height: 130px;
     background-color: #0f0e17;
     float: left;
-    margin: 20px;
-    
+    box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5);   
 }
 
 img{
     height: 130px;
 }
 
-.card{
+.card-info{
+   color: white;
+    float: right;
+    padding: 40px 40px;
+}
+.profile-email{
+    color: #6fc8eb;
+}
+
+/* .card{
     box-shadow: 0 0 20px rgba(0, 0, 0 , 0.2);
     width: calc(100% / 3 - 40px);
     height: 130px;
@@ -76,7 +85,7 @@ img{
 
 .profile-email{
     color: #6fc8eb;
-}
+} */
 
 
 
