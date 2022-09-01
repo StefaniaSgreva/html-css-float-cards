@@ -22,11 +22,15 @@ html{
     margin: 0 auto;
     width: 70%;
     min-width: 1200px;
-    /* min-height: 200px;
-    background-color: brown; */
+    min-height: 200px;
+    background-color: brown; 
 }
 
 /* HEADER */
+
+header{
+    min-height: 80px;
+}
 
 header h1{
     color: #e53170;
@@ -38,6 +42,35 @@ header h1{
 /* MAIN */
 p{
     text-align: center;
+    margin-bottom: 30px;
 }
+
+
+.team-card{
+    width: calc(100% / 3 - 40px);
+    height: 130px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+}
+
+img{
+    height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 6fc8eb azzurro 0f0e17 scuro */
