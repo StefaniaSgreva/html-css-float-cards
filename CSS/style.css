@@ -47,7 +47,7 @@ main+p{
 
 
 .team-card{
-    margin: 20px;
+    margin: 20px ;
     width: calc(100% / 3 - 40px);
     height: 130px;
     background-color: #0f0e17;
@@ -59,33 +59,24 @@ img{
     height: 130px;
 }
 
-.card-info{
-   color: white;
+.profile-picturea{
+    float: left;
+}
+
+.profile-info{
     float: right;
-    padding: 40px 40px;
-}
-.profile-email{
-    color: #6fc8eb;
-}
-
-/* .card{
-    box-shadow: 0 0 20px rgba(0, 0, 0 , 0.2);
-    width: calc(100% / 3 - 40px);
-    height: 130px;
-    display: flex;
-    margin-top: 50px;
     color: white;
-    background-color: #0f0e17; 
-}
-
-.profile-main{
-    padding-left: 20px;
-    padding-top: 20px;
+    margin-right: 70px;
+    margin-top: 20px;
 }
 
 .profile-email{
     color: #6fc8eb;
-} */
+}
+
+.profile-position, .profile-email {
+    margin-top: 10px;
+}
 
 
 
