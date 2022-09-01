@@ -46,40 +46,46 @@ header h1{
 .description{
     text-align: center;
     margin-bottom: 40px;
+    
 }
 
 
 .team-card{
     margin: 20px;
     width: calc(100% / 3 - 40px);
-    height: 130px;
+    height: 110px;
     background-color: #0f0e17;
     float: left;
-    box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5);   
+    box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5); 
+    background-color: ;
+   
 }
 
 img{
-    height: 130px;
+    height: 110px;
 }
 
-.profile-picturea{
+.profile-picture{
     float: left;
+   
+    
 }
 
 .profile-info{
     float: right;
     color: white;
-    /* margin-right: 30px;
-    margin-top: 20px; */
+    margin-left: 20px;
+    margin-top: 12px;   
 }
 
 .profile-email{
     color: #6fc8eb;
 }
 
-/* .profile-position, .profile-email {
-    margin-top: 10px;
-} */
+.profile-position, .profile-email{
+    margin-top: 5px;
+}
+
 
 
 
