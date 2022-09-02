@@ -20,11 +20,7 @@ html{
 
 .container{
     margin: 0 auto;
-    /* width: 70%; */
-    /* min-width: 1200px; */
-    max-width: 1200px; /*posso rimpicciolire ma non ingrandire */
-    min-height: 200px;
-    /* background-color: brown;  - margin check - */
+    max-width: 1200px;
 }
 
 /* HEADER */
@@ -37,63 +33,22 @@ header h1{
     color: #e53170;
     padding: 30px;
     text-align: center;
-    /* margin-bottom: 20px; */
     margin 50px 0;
     font-size: 2.6em;
     /* text-shadow: 1px 1px #000000;   */
 }
 
-/* MAIN */
+/* MAIN CONTENT */
 
-.description{
+p{
     text-align: center;
     margin-bottom: 50px;
-    /* font-size: 18px; */
-    
 }
 
-
-.team-card{
-    margin: 20px;
-    width: calc(100% / 3 - 40px);
-    height: 110px;
-    background-color: #0f0e17;
-    float: left;
-    box-shadow: 0 0 20px rgba(0, 0, 0 , 0.5); 
-    background-color: ;
-   
-}
-
-img{
-    height: 110px;
-}
-
-.profile-picture{
-    float: left;
-   
-    
-}
-
-.profile-info{
-    float: right;
-    color: white;
-    margin-left: 20px;
-    margin-top: 12px;   
-}
-
-.profile-email{
-    color: #6fc8eb;
-}
-
-.profile-position, .profile-email{
-    margin-top: 5px;
-}
-
-/* APPUNTI LEZIONE */
 .col{
     float: left;
     width: calc(100% / 3);
-    padding: 0 16px; /*consigliato lavorare sempre nella parte interna e non sui margini!*/
+    padding: 0 16px; 
     min-width: 330px;
 }
 
@@ -104,17 +59,17 @@ img{
     margin-bottom: 50px;
 }
 
-.card .avatar {
-    width: 100px;
+img{
+    height: 120px;
     float: left;
 }
 
-.card .contents {
-    float: right;
+.contents {
+    float: left;
     /* spazio dell'immagine */
     width: calc(100% / - 100px);
     padding-left: 16px;
-    /* word-wrap: break-word; */
+    /* padding-top: 8px; */
 }
 
 .card .name {
@@ -123,25 +78,10 @@ img{
 }
 
 .card .position{
-padding-bottom: 6px;
+    padding-bottom: 6px;
 }
 
 .card a{
     text-decoration: none;
     color: #6fc8eb;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
