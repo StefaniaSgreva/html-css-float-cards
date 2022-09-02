@@ -1,0 +1,46 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{ 
+    content: "";
+    display: table; 
+    clear: both;
+}
+
+/* GENERAL RULES */
+
+html{
+    font-family: 'Fredoka', Arial, sans-serif;
+    background-color: #fffffe;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* HEADER */
+
+header{
+    min-height: 80px;
+}
+
+header h1{
+    color: #e53170;
+    padding: 30px;
+    text-align: center;
+    margin 50px 0;
+    font-size: 2.6em;
+    /* text-shadow: 1px 1px #000000;*/
+}
+
+/* MAIN CONTENT */
+
+p{
+    text-align: center;
+    margin-bottom: 50px;
+}
