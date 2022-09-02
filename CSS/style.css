@@ -20,10 +20,11 @@ html{
 
 .container{
     margin: 0 auto;
-    width: 70%;
-    min-width: 1200px;
+    /* width: 70%; */
+    /* min-width: 1200px; */
+    max-width: 1200px; /*posso rimpicciolire ma non ingrandire */
     min-height: 200px;
-    /* background-color: brown;  */
+    /* background-color: brown;  - margin check - */
 }
 
 /* HEADER */
@@ -36,16 +37,18 @@ header h1{
     color: #e53170;
     padding: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin 50px 0;
     font-size: 2.6em;
-    /* text-shadow: 2px 2px 2px #000000;   */
+    /* text-shadow: 1px 1px #000000;   */
 }
 
 /* MAIN */
 
 .description{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    /* font-size: 18px; */
     
 }
 
@@ -86,9 +89,47 @@ img{
     margin-top: 5px;
 }
 
+/* APPUNTI LEZIONE */
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 16px; /*consigliato lavorare sempre nella parte interna e non sui margini!*/
+    min-width: 330px;
+}
 
+.card{
+    color: #fffffe;
+    background-color: #0f0e17;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
 
+.card .avatar {
+    width: 100px;
+    float: left;
+}
 
+.card .contents {
+    float: right;
+    /* spazio dell'immagine */
+    width: calc(100% / - 100px);
+    padding-left: 16px;
+    /* word-wrap: break-word; */
+}
+
+.card .name {
+    margin: 12px 0 6px;
+    text-transform: uppercase;
+}
+
+.card .position{
+padding-bottom: 6px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #6fc8eb;
+}
 
 
 
